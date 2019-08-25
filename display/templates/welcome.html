@@ -8,7 +8,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link href="https://fonts.googleapis.com/css?family=Do+Hyeon" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Acme" rel="stylesheet">
-    <title>PhotoBooth</title>
+    <title>yu's gallery</title>
     {% block styles %} {% bootstrap_css %} {% endblock %}
 
 </head>
@@ -25,19 +25,16 @@
         border-radius: 20px;
     }
 
-    .container {
-        background-color: whitesmoke;
-        opacity: 0.85;
-        padding: 20px;
-        border-radius: 20px;
-    }
+   
 
 
     h1 {
-        color: cornflowerblue;
-        text-align: center;
-        font-family: 'Do Hyeon', sans-serif;
-        font-size: 100px;
+        color: green;
+        padding-left: 900px;
+        padding-top: -200px;
+        font-family:sans-serif;
+        font-size: 40px;
+        color: black;
     }
 
     body {
@@ -51,13 +48,13 @@
 <body>
     {% include "navbar.html" %} {% block content %}
     <div class="container">
-        <h1><a href="/day">PhotoBooth!</a></h1>
+        <h1><a href="/day">yu's gallery!</a></h1>
     </div>
 
     <div class="card">
-        <p>Welcome to PhotoBooth, a web application used to display images and search for related tags within the app, enjoy your experience within PhotoBooth and be sure to leave a photo to expand the library :)</p>
+        <p>Welcome to yu's simple galley enjoy!</p>
         <p>
-            <a href="/all">Click Me For More</a>
+            <button type="button" class="btn btn-success"><a href="/all">Click For More Images</a></button>
         </p>
     </div>
 <!--Script files-->
