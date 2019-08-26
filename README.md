@@ -15,7 +15,15 @@ you can:
 3. Search for different categories of photos and view them as well
 
 
-### Installations
+### Installation Process
+* run `git clone REPO-URL` in your terminal
+* write `cd my-gallery`
+* create a virtual environment with `python3.6 -m venv virtual`
+* enter virtual environment `. virtual/bin/activate`
+* run `pip install -r requirements.txt`
+* create Postgres Database
+* run `python3.6 manage.py runserver` to run the application
+
 
 
 ## Technologies used
